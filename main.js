@@ -41,3 +41,8 @@ const arrayTeamMembers = [
         img: "img/barbara-ramos-graphic-designer.jpg",
     },
 ];
+for (let i = 0; i < arrayTeamMembers.length; i++) {
+    for (let k in arrayTeamMembers[i]) {
+        console.log(k ,":", arrayTeamMembers[i][k])   
+    }   
+}
