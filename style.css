@@ -8,3 +8,19 @@ body{
     background-color:rgb(58, 65,72);
     color: cadetblue;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    background-color:cornflowerblue;
+    width: 700px;
+    height: 500px;
+}
+.square{
+    border: 2px solid white;
+    width: calc((100% / 3) - 10px);
+    height: 300px;
+    margin: 10px;
+}
