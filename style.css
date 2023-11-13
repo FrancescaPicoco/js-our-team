@@ -28,7 +28,7 @@ body{
     padding: 1rem;
     background-color: slategray;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .cardBottom{
 
