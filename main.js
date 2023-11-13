@@ -40,12 +40,12 @@ const arrayTeamMembers = [
 const grid = document.getElementById("grid");
 for (let i = 0; i < arrayTeamMembers.length; i++) {
     const persona = arrayTeamMembers[i];
-    console.log(persona);
+    console.log(arrayTeamMembers);
     let card = `
     <div class="square">       
-       <p class="cardBottom">${arrayTeamMembers["nomecompleto"]}</p>
-       <p class="cardBottom">${arrayTeamMembers.ruolo}</p> 
-       <img src="./img/${arrayTeamMembers["img"]}"> 
+       <p class="cardBottom">${persona.nomecompleto}</p>
+       <p class="cardBottom">${persona.ruolo}</p> 
+       <img src="./img/${persona.img}"> 
     </div>
     `;
     grid.innerHTML += card;
