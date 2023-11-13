@@ -13,14 +13,23 @@ body{
     justify-content: center;
     align-items: center;
 }
-.grid{
+#grid{
     background-color:cornflowerblue;
     width: 700px;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 .square{
     border: 2px solid white;
-    width: calc((100% / 3) - 10px);
+    width: calc((100% / 3));
     height: 300px;
-    margin: 10px;
+    padding: 1rem;
+    background-color: slategray;
+    display: flex;
+    flex-direction: column;
+}
+.cardBottom{
+
 }
